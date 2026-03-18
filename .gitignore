@@ -1,0 +1,57 @@
+# Entorno virtual
+venv/
+
+# Archivos de entorno
+.env
+.env.local
+.env*.local
+
+# Archivos generados
+rutas_generadas/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs y bases de datos
+*.log
+*.sqlite
+*.db
+
+# Archivos temporales
+*.swp
+*.swo
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Python
+*.egg-info/
+dist/
+build/
+*.egg
+*.pyo
+
+# Pruebas
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Backup
+*.bak
+*.backup
+
+# Otros
+*.orig
+*.rej
